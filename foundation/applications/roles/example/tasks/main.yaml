@@ -1,0 +1,9 @@
+---
+# main.yaml
+
+- name: Build state
+  include_role:
+    name: platform.helpers.state_builder
+  vars:
+    state_builder_resource: "{{ foundation__applications__example }}"
+    state_builder_context: example

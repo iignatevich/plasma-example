@@ -1,0 +1,7 @@
+name: plasma-example
+version: 0.0.1
+dependencies:
+  - package: plasma-dependency-example@^0.0.1
+    source:
+      type: git
+      url: https://github.com/otheruser/plasma-dependency-example.git
