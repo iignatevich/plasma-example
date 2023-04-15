@@ -1,8 +1,8 @@
 name: plasma-example
-version: 0.0.3
+version: 0.0.4
 dependencies:
   - package: plasma-dependency-example@0.0.1
     source:
       type: git
       ref: 0.0.1
-      url: https://github.com/otheruser/plasma-dependency-example.git
+      url: https://github.com/iignatevich/plasma-dependency-example.git
