@@ -1,12 +1,12 @@
 name: plasma-example
-version: 0.0.5
+version: 0.0.6
 dependencies:
-  - package: plasma-dependency-example@0.0.1
+  - package: plasma-dependency-example
     source:
       type: git
       ref: 0.0.1
       url: https://github.com/iignatevich/plasma-dependency-example.git
-  - package: plasma-example-http@0.0.1
+  - package: plasma-example-http
     source:
       type: http
       url: https://github.com/iignatevich/plasma-example-http/archive/refs/tags/0.0.1.tar.gz
